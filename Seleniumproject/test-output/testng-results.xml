@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59682" started-at="2019-10-10T09:03:16Z" finished-at="2019-10-10T09:04:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="59682" started-at="2019-10-10T09:03:16Z" finished-at="2019-10-10T09:04:15Z">
+      <class name="Testngproject.Solotest3">
+        <test-method status="PASS" signature="open()[pri:0, instance:Testngproject.Solotest3@6d44803f]" name="open" is-config="true" duration-ms="49510" started-at="2019-10-10T10:03:16Z" finished-at="2019-10-10T10:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="tab()[pri:0, instance:Testngproject.Solotest3@6d44803f]" name="tab" duration-ms="2102" started-at="2019-10-10T10:04:05Z" finished-at="2019-10-10T10:04:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tab -->
+        <test-method status="PASS" signature="space()[pri:1, instance:Testngproject.Solotest3@6d44803f]" name="space" duration-ms="110" started-at="2019-10-10T10:04:07Z" finished-at="2019-10-10T10:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- space -->
+        <test-method status="PASS" signature="enter()[pri:2, instance:Testngproject.Solotest3@6d44803f]" name="enter" duration-ms="147" started-at="2019-10-10T10:04:08Z" finished-at="2019-10-10T10:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter -->
+        <test-method status="PASS" signature="escape()[pri:3, instance:Testngproject.Solotest3@6d44803f]" name="escape" duration-ms="115" started-at="2019-10-10T10:04:08Z" finished-at="2019-10-10T10:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- escape -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Testngproject.Solotest3@6d44803f]" name="close" is-config="true" duration-ms="7549" started-at="2019-10-10T10:04:08Z" finished-at="2019-10-10T10:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Testngproject.Solotest3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="Testngproject.Chromewindows"/>
+      <class name="Testngproject.Chromeadvanceduser"/>
+      <class name="Testngproject.Chromeautoit"/>
+      <class name="Testngproject.Chromephp"/>
+      <class name="Testngproject.Chrometestng"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="Testngproject.Chromewindows">
+        <methods>
+          <include name="open"/>
+        </methods>
+      </class> <!-- Testngproject.Chromewindows -->
+      <class name="Testngproject.Chromeadvanceduser">
+        <methods>
+          <include name="open"/>
+        </methods>
+      </class> <!-- Testngproject.Chromeadvanceduser -->
+      <class name="Testngproject.Chromeautoit">
+        <methods>
+          <include name="open"/>
+        </methods>
+      </class> <!-- Testngproject.Chromeautoit -->
+      <class name="Testngproject.Chrometestng">
+        <methods>
+          <include name="open"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Testngproject.Chrometestng -->
+      <class name="Testngproject.Chromephp">
+        <methods>
+          <include name="open"/>
+          <include name="close"/>
+          <include name="logoff"/>
+        </methods>
+      </class> <!-- Testngproject.Chromephp -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
